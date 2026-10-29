@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Dataset gambar
+dataset/raw/
+
+# Model checkpoints
+*.pt
+*.pth
+*.onnx
+
+# Training outputs
+runs/
+results/detection/
+results/classification/
+results/segmentation/
+
+# IDE
+.vscode/
+.idea/
+
+# Other non-training
+backend/
+dataset/
+models/
+results/
+
